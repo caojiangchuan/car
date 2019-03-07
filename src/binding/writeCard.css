@@ -1,0 +1,41 @@
+.wri-kind{ height: 50px;
+    border-bottom: 1px solid #EAEAEB;
+    background: white;
+    margin: 0 auto;
+    font-size: 16px;
+    width: 90%;
+    border-radius: 3px;
+     }
+.wri-include{ overflow: hidden; background: white; margin-top: 30px;    }
+.wri-include2{ margin-top: 15px;}
+.wri-kind span{ line-height: 50px;  color: black;}
+.wri-input{ width: 70%; float: right; height: 100%;}
+.wri-idcard{margin-top: 0;border-bottom: 0px;position:relative;}
+.wri-next{     width: 90%;
+    margin: 0 auto;
+    font-size: 12px;
+    margin-top: 39px;
+    color: #959595;}
+.wri-next span{ color: #3385FF}
+.wri-nextBtn{width: 100%;
+    margin: 0 auto;
+    background: #3385FF;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 16px;
+    margin-top: 15px;
+    /* border-radius: 5px; */
+    color: white;}
+.wri-protocol{width: 100%; height: 100%; position: fixed; background: white; top: 0px; display: none;overflow: scroll; padding: 0 5px 20px 5px;}
+.wri-protocolShow{display: block}
+.wri-protocol p {text-align: center; font-size:16px; margin-top: 10px;}
+.wri-phone{ position:relative;}
+/*.wri-phone:after{content: "获取验证码";position: absolute; width:25%; height: 100%; right: 0; background: #9A9A9A; font-size: 14px; line-height: 50px; text-align: center;color: white; }*/
+.getNum{position: absolute;top:10px; line-height: 30px !important;  right:-5px;width:98px;height: 30px; background: rgba(51,133,255,1);line-height: 50px; text-align: center;color: white; padding-left: 0px !important; font-size: 14px; color: white !important; }
+
+@media screen and (max-width:325px){
+    .getNum{width:70px; font-size: 12px; line-height: 45px !important;}
+}
+.wri-bankName{ float: right; width: 70%; border: 0px; height: 100%; background: none;}
+.protocolFont p{text-align: left; font-size: 14px; margin: 0px; line-height: 18px;}
